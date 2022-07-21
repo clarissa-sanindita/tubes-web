@@ -1,0 +1,283 @@
+body{
+  margin: 0;
+}
+
+.grid{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.h22, .h44, .h33{
+    font-family: Poppins;
+    font-weight:600;
+}
+
+.h44{
+    font-size: 18px;
+    
+}
+
+p{
+    font-family: Poppins;
+}
+
+
+/*NEWS*/
+.sidebar {
+    margin-top: -15px;
+    width: 500px;
+    z-index: 1;
+    top: 0;
+    float: right;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  
+  .sidebar a {
+    padding: 6px 0px 0px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #071116;
+    display: block;
+    margin-bottom: -10px;
+  }
+  
+  .sidebar img{
+    margin-top: 30px;
+  }
+  
+  .sidebar p{
+    font-size: 15px;
+    margin-top: -20px;
+    
+  }
+  
+  .sidebar h4{
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  
+  
+  .lap_box, .img_lap{
+    width: 520px;
+  }
+  
+  
+  .img_lap2{
+    width: 200px;
+  }
+  
+  .cover_news{
+    width: 1100px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.584)), url("cover_news.jpg");
+  }
+  
+  .cover_news h2{
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: white;
+    width: 700px;
+  }
+  .tgl{
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: white;
+    font-size: 13px;
+  }
+  .konten{
+    text-align: left;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    color: white;
+    width: 800px;
+  }
+  
+  .cover_news{
+    margin-top: 50px;
+    margin-bottom: 70px
+  }
+
+  .pagination{
+      margin-left: -15px;
+  }
+
+  .pagination a{
+    color: #0c232f;
+  }
+
+  
+  /*Footer*/
+  .footer {
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    background-color: #0c232f;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .tabel_footer{
+    padding: 30px;
+  }
+
+  .list{
+    list-style-type:none;
+    text-align: left;
+    margin: 8px;
+    font-family: Poppins;
+    
+  }
+
+  h4{
+    font-family: Poppins;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .news{
+    text-align: left;
+    margin-left: 150px;
+    width: 350px;
+  }
+
+  .text_sosmed{
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .sosmed{
+    margin-left: 50px;
+  }
+
+  .input_news{
+    padding-left: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .btn_news{
+    margin-left: -4px;
+    height: 32px;
+    width: 40px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .link_footer{
+    text-decoration:none;
+    color: #eeeeee;
+  }
+
+  .link_footer:hover{
+    color: #e99f94;
+  }
+
+  .copi{
+    background-color: #071116;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -15px;
+    padding: 5px;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  
+.navbarr {
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  /* Links inside the navbar */
+  .navbarr a {
+    float: left;
+    font-size: 16px;
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdownn {
+    float: left;
+    overflow: hidden;
+    font-family: Poppins;
+  }
+  
+  /* Dropdown button */
+  .dropdownn .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 19px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbarr a:hover, .dropdownn:hover .dropbtn {
+    background-color: #1572A1;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdownn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .drop_a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .drop_a:hover {
+    background-color: rgb(199, 199, 199);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdownn:hover .dropdownn-content {
+    display: block;
+  }

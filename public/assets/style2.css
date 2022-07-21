@@ -1,0 +1,1016 @@
+@font-face
+  {
+    font-family: 'PoppinsB'; 
+    src: url('Poppins-Medium.ttf');
+  }
+
+.box{
+  text-align: center;
+  margin: 0;
+}
+
+body{
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: Poppins;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+}
+
+.logo{
+  max-width: 120px;
+  margin-top: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    font-family: Poppins;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 19px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    
+    color: #1572A1;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover 
+  .dropdown-content a:hover {
+    background-color: rgb(199, 199, 199);
+  }
+  */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .serc input[type=text] {
+    width: 250px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    margin-right: -10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .search-container button {
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 10px;
+    padding-right: 15px;
+    margin-top: 8px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  search-container button:hover {
+    background: #ccc;
+    border: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+    }
+    .serc input[type=text],.search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+      
+      
+    }
+    .serc input[type=text] {
+      border: 1px solid #ccc;
+      
+    }
+  }
+
+
+  /*box*/
+  .content {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    
+  }
+
+  .content_img{
+      max-width: 200px;
+      border-radius: 20px;
+  }
+
+    .judul_content{
+    margin-top: 6px;
+  }
+
+  .text_cover{
+      font-family: Poppins;
+      font-size: 15px;
+  }
+
+/*gambar box*/
+.img_text{
+ width: 500px;
+ margin-left: 20px
+}
+
+.img_gambar{
+    margin-left: 150px;
+}
+
+.box_img{
+    margin-top: 100px;
+    justify-content: center;
+    ;
+}
+
+.img_gambar{
+    max-width: 400px;
+}
+
+.button {
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background-color: #1572A1; 
+  color: white; 
+  font-family: Poppins;
+  border: none;
+  }
+  
+  .button:hover {
+    background-color:  #0f4f70;
+   
+  }
+
+  .tanggal{
+      margin-bottom: -15px;
+      font-family: Poppins;
+  }
+
+  .paragraf{
+      margin-bottom: 30px;
+  }
+
+/*judul cover*/
+  h1{
+      font-family: Poppins;
+      margin-top: 50px;
+  }
+
+  .judul_cover{
+      width: 500px;
+      font-family: Poppins;
+  }
+
+  /*Footer*/
+  .footer {
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    background-color: #0c232f;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .tabel_footer{
+    padding: 30px;
+  }
+
+  .list{
+    list-style-type:none;
+    text-align: left;
+    margin: 8px;
+    font-family: Poppins;
+    
+  }
+
+  h4{
+    font-family: Poppins;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .news{
+    text-align: left;
+    margin-left: 150px;
+    width: 350px;
+  }
+
+  .text_sosmed{
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .sosmed{
+    margin-left: 50px;
+  }
+
+  .input_news{
+    padding-left: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .btn_news{
+    margin-left: -4px;
+    height: 32px;
+    width: 40px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .link_footer{
+    text-decoration:none;
+    color: #eeeeee;
+  }
+
+  .link_footer:hover{
+    color: #e99f94;
+  }
+
+  .copi{
+    background-color: #071116;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -15px;
+    padding: 5px;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  /*Galeri pemain*/
+  .pemain{
+      margin-top: 120px;
+      margin-left: 240px;
+  }
+
+  .content_pemain{
+    background-color: white;
+    padding-bottom: 15px;
+    width: 520px;
+    margin: 20px;
+    margin-right: 8px;
+  }
+
+  .img_pemain{
+    max-width: 520px;
+  }
+
+  .text_pemain{
+      font-family: Poppins;
+      font-size: 15px;
+      
+  }
+
+  .textt{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .content_pemain2{
+    background-color: white;
+    padding-bottom: 15px;
+    width: 400px;
+    margin: 20px;
+  }
+
+  .img_pemain2{
+    max-width: 400px;
+    
+  }
+
+  .judul_pemain{
+    margin-bottom: -8px;
+  }
+
+  .judul_cp{
+    margin-left: 25px;
+    margin-bottom: -8px;
+  }
+
+  /*PROFIL*/
+  .cover_prof{
+    margin-top: 50px;
+    justify-content: center;
+
+  }
+
+  .img_prof{
+    width: 1070px;
+  }
+
+  .img_prof2{
+    width: 130px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: -80px;
+    
+  }
+
+
+  .text_prof{
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+
+.p_prof, .p_prof2{
+margin-top: 5px;
+}
+
+.p_prof2{
+  margin-left: 100px;
+}
+
+
+/*KALKULATOR*/
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;
+  margin-top: 50px;	
+  
+}
+#calculator{
+	width: 320px;
+	height: 470px;
+    background-color: #d7d8d8;
+    margin: 0 auto;
+    top: 0;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+}
+#result{
+    height: 60px;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.number, .empty{
+    background-color: #d7d8d8;
+}
+.operator{
+    background-color:rgb(185, 185, 185);
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+.output{
+  height: 75px;
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-right: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-family: Poppins;
+}
+
+.output .previous-operand{
+  color: rgb(155, 155, 155);
+  font-size: 20px;
+  
+}
+
+.output .current-operand{
+  font-size: 25px;
+}
+
+/*LIST*/
+
+.textarea {
+	width: 204px;
+	margin-top: 15px;
+  margin-left: 80px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	background-color: #d7d8d8;
+	border-radius: 25px;
+	text-align: right;
+}
+
+.inputList input{
+  margin: 10px 0px 5px 100px;
+  height: 20px;
+  width: 300px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: Poppins;
+}
+
+.form_data button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  height: 32px;
+  width: 100px;
+  border: none;
+  
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.btn-tambah{
+  background-color: #4CAF50;
+}
+
+.btn-tambah:hover{
+  background-color: #3e8e41;
+}
+
+
+.form_data label{
+  font-family: Poppins;
+  font-weight: 600;
+  
+}
+
+#data{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-family: Poppins;
+  min-width: 900px; 
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+#data thead tr{
+  background-color: #0c232f;
+  color: white;
+  text-align: left;
+  font-size: medium;
+}
+
+#data th, td{
+  padding: 12px 15px;
+}
+
+#data tbody tr{
+  border-bottom: 1px solid #dbdbdb;
+}
+
+#data tbody tr:nth-of-type(even){
+  background-color: #f5f5f5;
+  
+}
+
+#data tbody tr:last-of-type{
+  border-bottom:2px solid #0c232f;
+  
+}
+
+.btn-hapus{
+  border: none;
+  background-color: #e93528;
+  color: white;
+}
+
+.btn-hapus:hover{
+  background-color: #c52519;
+}
+
+.btn-edit{
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  margin-left: -130px;
+}
+
+.btn-edit:hover{
+  background-color: #00688b;
+}
+
+label.validation-error{
+  color:   red;
+  margin-left: 5px;
+}
+
+.hide{
+  display:none;
+}
+
+#btnSearch {
+  
+  width: 100px;
+  height: 39px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#btnSearch:hover {
+  background: #0b7dda;
+}
+
+#btnSearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.inputSearch{
+  float: left;
+  height: 20px;
+  width: 300px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: Poppins;
+    margin-top: 12px;
+    
+  
+}
+
+body{
+  margin: 0;
+}
+
+.grid{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.h22, .h44, .h33{
+    font-family: Poppins;
+    font-weight:600;
+}
+
+.h44{
+    font-size: 18px;
+    
+}
+
+p{
+    font-family: Poppins;
+}
+
+
+/*NEWS*/
+.sidebar {
+    margin-top: -15px;
+    width: 500px;
+    z-index: 1;
+    top: 0;
+    float: right;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  
+  .sidebar a {
+    padding: 6px 0px 0px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #071116;
+    display: block;
+    margin-bottom: -10px;
+  }
+
+  
+  .sidebar p{
+    font-size: 15px;
+    margin-top: -20px;
+    
+  }
+  
+  .sidebar h4{
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  
+  
+  .lap_box, .img_lap{
+    width: 520px;
+  }
+  
+  
+  .img_lap2{
+    width: 200px;
+  }
+  
+  .cover_news{
+    width: 1100px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.584)), url("cover_news.jpg");
+  }
+  
+  .cover_news h2{
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: white;
+    width: 700px;
+  }
+  .tgl{
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: white;
+    font-size: 13px;
+  }
+  .konten{
+    text-align: left;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    color: white;
+    width: 800px;
+  }
+  
+  .cover_news{
+    margin-top: 50px;
+    margin-bottom: 70px
+  }
+
+  .pagination{
+      margin-left: -15px;
+  }
+
+  .pagination a{
+    color: #0c232f;
+  }
+
+  
+  /*Footer*/
+  .footer {
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    background-color: #0c232f;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .tabel_footer{
+    padding: 30px;
+  }
+
+  .list{
+    list-style-type:none;
+    text-align: left;
+    margin: 8px;
+    font-family: Poppins;
+    
+  }
+
+  h4{
+    font-family: Poppins;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .news{
+    text-align: left;
+    margin-left: 150px;
+    width: 350px;
+  }
+
+  .text_sosmed{
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .sosmed{
+    margin-left: 50px;
+  }
+
+  .input_news{
+    padding-left: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .btn_news{
+    margin-left: -4px;
+    height: 32px;
+    width: 40px;
+    border-radius: 0%;
+    border: none;
+  }
+
+  .link_footer{
+    text-decoration:none;
+    color: #eeeeee;
+  }
+
+  .link_footer:hover{
+    color: #e99f94;
+  }
+
+  .copi{
+    background-color: #071116;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -15px;
+    padding: 5px;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  
+.navbarr {
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  /* Links inside the navbar */
+  .navbarr a {
+    float: left;
+    font-size: 16px;
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdownn {
+    float: left;
+    overflow: hidden;
+    font-family: Poppins;
+  }
+  
+  /* Dropdown button */
+  .dropdownn .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 19px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbarr a:hover, .dropdownn:hover .dropbtn {
+    background-color: #1572A1;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdownn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .drop_a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .drop_a:hover {
+    background-color: rgb(199, 199, 199);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdownn:hover .dropdownn-content {
+    display: block;
+  }
+
+/*LAPANGAN*/
+.row1{
+ 
+  display: flex;
+    flex-wrap:wrap; 
+    margin-top: 50px;
+    
+}
+
+.col-sm-4{
+  
+  max-width: 40%;
+  margin: auto;
+}
+.box_court{
+  background-color: white;
+  width: 300px;
+}
+
+.box_text{
+  padding: 0 20px 20px 20px;
+}
+
+.img_lapangan{
+  max-width: 300px;
+}
+
+.button_book{
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background-color: #1572A1; 
+  color: white; 
+  font-family: Poppins;
+  border: none;
+  border-radius: 50px;
+}
+
+.btnLogout{
+  font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 19px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0;
+}
+
+.coverHal{
+  width: 100%;
+}
+
+
+
+
+  
+
+
+ 
+
+
+ 

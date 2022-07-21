@@ -1,0 +1,140 @@
+@font-face
+  {
+    font-family: 'PoppinsB'; 
+    src: url('Poppins-Medium.ttf');
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+  text-align: center;
+  margin: 0;
+}
+
+body{
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.imgForm{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+form{
+    width: 500px;
+}
+
+.contForm{
+    margin: 50px 30px 10px 30px;
+}
+
+.textarea {
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.inputList{
+  margin-top: 20px;
+}
+
+.inputList input{
+  width: 500px;
+  margin-top: 5px;
+  height: 30px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    
+}
+
+.inputDate input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+}
+
+.inputDesk textarea{
+  max-width: 500px;
+  margin-top: 5px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+}
+
+.form_data button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  height: 32px;
+  width: 100px;
+  border: none;
+  
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.error{
+  color:   red;
+  margin-left: 5px;
+  font-size: small;
+}
+
+
+
+.button {
+  width: 500px;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background-color: #1572A1; 
+  color: white; 
+  font-family: Poppins;
+  border: none;
+  }
+  
+  .button:hover {
+    background-color:  #0f4f70;
+   
+  }
+
+
+
